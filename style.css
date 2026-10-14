@@ -404,6 +404,7 @@ header {
     border-radius: 16px;
 }
 .page4__content {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 24px;
