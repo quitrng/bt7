@@ -1,0 +1,936 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodwagon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <div class="header__logo">
+        <img src="header__burger.svg" alt="burger" />
+        <img src="header__foodwagon.svg" alt="foodwagon" height="36" />
+      </div>
+
+      <div class="header__middle container gap__12">
+        <p class="p__deliver">Deliver to:</p>
+        <div class="gap__9">
+          <img
+            src="header__map-marker-alt.svg"
+            width="14"
+            height="25"
+            alt="map-marker"
+          />
+          <div class="container gap__4">
+            <p class="p__current">Current Location</p>
+            <p class="p__moha">Mohammadpur Bus Stand, Dhaka</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__right container">
+        <div class="header__search">
+          <img src="header__Search.svg" width="18" height="18" alt="search" />
+          <p class="p__search">Search Food</p>
+        </div>
+        <div class="header__button container">
+          <img src="header__user.svg" width="16" height="18" alt="user" />
+          <p class="p__login">Login</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-section container">
+      <div class="hero__container">
+        <div class="hero__content">
+          <div class="hero__text">
+            <h1 class="p__starving">Are you starving?</h1>
+            <p class="p__within">
+              Within a few clicks, find meals that are accessible near you
+            </p>
+          </div>
+
+          <div class="hero__box">
+            <div class="hero__top">
+              <div class="hero__delivery container">
+                <img src="hero__motor.svg" width="23" height="18" alt="motor" />
+                <p class="p__delivery">Delivery</p>
+              </div>
+
+              <div class="hero__pickup container">
+                <img src="hero__shop.svg" width="16" height="18" alt="shop" />
+                <p class="p__pickup">Pickup</p>
+              </div>
+            </div>
+
+            <hr class="hero__line" />
+
+            <div class="hero__bottom">
+              <div class="hero__map">
+                <img
+                  src="hero__map-marker.svg"
+                  width="18"
+                  height="34"
+                  alt="hero__map-marker"
+                />
+                <p class="p__map">Enter Your Address</p>
+              </div>
+
+              <div class="hero__find container">
+                <img
+                  src="hero__search.svg"
+                  width="14"
+                  height="14"
+                  alt="search"
+                />
+                <p class="p__find">Find Food</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img
+          src="hero__food.png"
+          class="hero__food"
+          alt="hero__food"
+          width="497.14"
+          height="497.14"
+        />
+      </div>
+    </section>
+
+    <section class="page1 container">
+      <div class="page1__content">
+        <div class="page1__box">
+          <div class="page1__img">
+            <img
+              src="page1__food1.png"
+              style="border-radius: 16px"
+              alt="page1__food1"
+            />
+            <div class="page1__sale">
+              <span class="p__number">15</span>
+              <div class="page1__right">
+                <div class="p__percent">%</div>
+                <div class="p__off">Off</div>
+              </div>
+            </div>
+          </div>
+          <div class="page1__text">
+            <p class="p__greys">Greys Vage</p>
+            <p class="p__days container">6 Days Remaining</p>
+          </div>
+        </div>
+
+        <div class="page1__box">
+          <div class="page1__img">
+            <img src="page1__food2.png" alt="page1__food2" />
+            <div class="page1__sale">
+              <span class="p__number">10</span>
+              <div class="page1__right">
+                <div class="p__percent">%</div>
+                <div class="p__off">Off</div>
+              </div>
+            </div>
+          </div>
+          <div class="page1__text">
+            <p class="p__greys">Greys Vage</p>
+            <p class="p__days container">6 Days Remaining</p>
+          </div>
+        </div>
+
+        <div class="page1__box">
+          <div class="page1__img">
+            <img src="page1__food3.png" alt="page1__food3" />
+            <div class="page1__sale">
+              <span class="p__number">25</span>
+              <div class="page1__right">
+                <div class="p__percent">%</div>
+                <div class="p__off">Off</div>
+              </div>
+            </div>
+          </div>
+          <div class="page1__text">
+            <p class="p__greys">Greys Vage</p>
+            <p class="p__days container">7 Days Remaining</p>
+          </div>
+        </div>
+
+        <div class="page1__box">
+          <div class="page1__img">
+            <img src="page1__food4.png" alt="page1__food4" />
+            <div class="page1__sale">
+              <span class="p__number">20</span>
+              <div class="page1__right">
+                <div class="p__percent">%</div>
+                <div class="p__off">Off</div>
+              </div>
+            </div>
+          </div>
+          <div class="page1__text">
+            <p class="p__greys">Greys Vage</p>
+            <p class="p__days container">8 Days Remaining</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page2 container">
+      <h2 class="page__h2">How does it work</h2>
+      <div class="page2__content">
+        <div class="page2__box">
+          <img src="page2__icon1.svg" alt="page2__icon1" />
+          <div class="page2__text">
+            <h3 class="page2__h3">Select location</h3>
+            <p class="page2__p">
+              Choose the location where your <br />
+              food will be delivered.
+            </p>
+          </div>
+        </div>
+
+        <div class="page2__box">
+          <img src="page2__icon2.svg" alt="page2__icon2" />
+          <div class="page2__text">
+            <h3 class="page2__h3">Choose order</h3>
+            <p class="page2__p">
+              Check over hundreds of menus to <br />
+              pick your favorite food
+            </p>
+          </div>
+        </div>
+
+        <div class="page2__box">
+          <img src="page2__icon3.svg" alt="page2__icon3" />
+          <div class="page2__text">
+            <h3 class="page2__h3">Pay advanced</h3>
+            <p class="page2__p">
+              It's quick, safe, and simple. Select <br />
+              several methods of payment
+            </p>
+          </div>
+        </div>
+
+        <div class="page2__box">
+          <img src="page2__icon4.svg" alt="page2__icon4" />
+          <div class="page2__text">
+            <h3 class="page2__h3">Enjoy meals</h3>
+            <p class="page2__p">
+              Food is made and delivered directly <br />
+              to your home.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page3 container">
+      <h2 class="page3__h2">Popular items</h2>
+      <div class="page3__content">
+        <div class="page3__box">
+          <div class="page3__review">
+            <img src="page3__food1.png" alt="page3__food1" class="page3__img" />
+            <div class="page3__text">
+              <h3 class="page3__h3">Cheese Burger</h3>
+              <div class="page3__marker">
+                <img src="page3__map-marker.svg" alt="page3__map-marker" />
+                <p class="page3__location">Burger Arena</p>
+              </div>
+              <p class="page3__price">$3.88</p>
+            </div>
+          </div>
+          <div class="page3__button container">
+            <p class="p__button">Order Now</p>
+          </div>
+        </div>
+
+        <div class="page3__box">
+          <div class="page3__review">
+            <img src="page3__food2.png" alt="page3__food2" class="page3__img" />
+            <div class="page3__text">
+              <h3 class="page3__h3">Toffe’s Cake</h3>
+              <div class="page3__marker">
+                <img src="page3__map-marker.svg" alt="page3__map-marker" />
+                <p class="page3__location">Top Sticks</p>
+              </div>
+              <p class="page3__price">$4.00</p>
+            </div>
+          </div>
+          <div class="page3__button container">
+            <p class="p__button">Order Now</p>
+          </div>
+        </div>
+
+        <div class="page3__box">
+          <div class="page3__review">
+            <img src="page3__food3.png" alt="page3__food3" class="page3__img" />
+            <div class="page3__text">
+              <h3 class="page3__h3">Dancake</h3>
+              <div class="page3__marker">
+                <img src="page3__map-marker.svg" alt="page3__map-marker" />
+                <p class="page3__location">Cake World</p>
+              </div>
+              <p class="page3__price">$1.99</p>
+            </div>
+          </div>
+          <div class="page3__button container">
+            <p class="p__button">Order Now</p>
+          </div>
+        </div>
+
+        <div class="page3__box">
+          <div class="page3__review">
+            <img src="page3__food4.png" alt="page3__food4" class="page3__img" />
+            <div class="page3__text">
+              <h3 class="page3__h3">Crispy Sandwitch</h3>
+              <div class="page3__marker">
+                <img src="page3__map-marker.svg" alt="page3__map-marker" />
+                <p class="page3__location">Fastfood Dine</p>
+              </div>
+              <p class="page3__price">$3.00</p>
+            </div>
+          </div>
+          <div class="page3__button container">
+            <p class="p__button">Order Now</p>
+          </div>
+        </div>
+
+        <div class="page3__box">
+          <div class="page3__review">
+            <img src="page3__food5.png" alt="page3__food5" class="page3__img" />
+            <div class="page3__text">
+              <h3 class="page3__h3">Thai Soup</h3>
+              <div class="page3__marker">
+                <img src="page3__map-marker.svg" alt="page3__map-marker" />
+                <p class="page3__location">Foody man</p>
+              </div>
+              <p class="page3__price">$2.79</p>
+            </div>
+          </div>
+          <div class="page3__button container">
+            <p class="p__button">Order Now</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page4 container">
+      <h2 class="page4__h2">Featured Restaurants</h2>
+      <div class="page4__block">
+        <div class="page4__middle">
+          <div class="page4__box">
+            <div class="page4__content">
+              <img
+                src="page4__food1.png"
+                alt="page4__food1"
+                class="page4__img"
+              />
+              <div class="page4__tag">
+                <div class="tag__sale container">
+                  <img src="page4__tag.svg" alt="page4__tag" />
+                  <p class="page4__p">20% off</p>
+                </div>
+                <div class="tag__time container">
+                  <img src="page4__oclock.svg" alt="page4__oclock" />
+                  <p class="page4__p">Fast</p>
+                </div>
+              </div>
+              <div class="page4__text">
+                <div class="page4__brand">
+                  <img src="page4__brand1.svg" alt="page4__brand1" />
+                  <div>
+                    <h3 class="page4__h3">Foodworld</h3>
+                    <div class="page4__star">
+                      <img src="page4__star.svg" alt="page4__star" />
+                      <p class="page4__number">46</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page4__close container">
+              <p class="p__close">Opens tomorrow</p>
+            </div>
+          </div>
+
+          <div class="page4__box">
+            <div class="page4__content">
+              <img
+                src="page4__food2.png"
+                alt="page4__food2"
+                class="page4__img"
+              />
+              <div class="page4__tag">
+                <div class="tag__sale container">
+                  <img src="page4__tag.svg" alt="page4__tag" />
+                  <p class="page4__p">15% off</p>
+                </div>
+                <div class="tag__time container">
+                  <img src="page4__oclock.svg" alt="page4__oclock" />
+                  <p class="page4__p">Fast</p>
+                </div>
+              </div>
+              <div class="page4__text">
+                <div class="page4__brand">
+                  <img src="page4__brand2.svg" alt="page4__brand2" />
+                  <div>
+                    <h3 class="page4__h3">Pizzahub</h3>
+                    <div class="page4__star">
+                      <img src="page4__star.svg" alt="page4__star" />
+                      <p class="page4__number">40</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page4__close container">
+              <p class="p__close">Opens tomorrow</p>
+            </div>
+          </div>
+
+          <div class="page4__box">
+            <div class="page4__content">
+              <img
+                src="page4__food3.png"
+                alt="page4__food3"
+                class="page4__img"
+              />
+              <div class="page4__tag">
+                <div class="tag__sale container">
+                  <img src="page4__tag.svg" alt="page4__tag" />
+                  <p class="page4__p">10% off</p>
+                </div>
+                <div class="tag__time container">
+                  <img src="page4__oclock.svg" alt="page4__oclock" />
+                  <p class="page4__p">Fast</p>
+                </div>
+              </div>
+              <div class="page4__text">
+                <div class="page4__brand">
+                  <img src="page4__brand3.svg" alt="page4__brand3" />
+                  <div>
+                    <h3 class="page4__h3">Donuts hut</h3>
+                    <div class="page4__star">
+                      <img src="page4__star.svg" alt="page4__star" />
+                      <p class="page4__number">20</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page4__open container">
+              <p class="p__open">Opens now</p>
+            </div>
+          </div>
+
+          <div class="page4__box">
+            <div class="page4__content">
+              <img
+                src="page4__food4.png"
+                alt="page4__food4"
+                class="page4__img"
+              />
+              <div class="page4__tag">
+                <div class="tag__sale container">
+                  <img src="page4__tag.svg" alt="page4__tag" />
+                  <p class="page4__p">15% off</p>
+                </div>
+                <div class="tag__time container">
+                  <img src="page4__oclock.svg" alt="page4__oclock" />
+                  <p class="page4__p">Fast</p>
+                </div>
+              </div>
+              <div class="page4__text">
+                <div class="page4__brand">
+                  <img src="page4__brand4.svg" alt="page4__brand4" />
+                  <div>
+                    <h3 class="page4__h3">Donuts hut</h3>
+                    <div class="page4__star">
+                      <img src="page4__star.svg" alt="page4__star" />
+                      <p class="page4__number">50</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page4__open container">
+              <p class="p__open">Opens now</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="page4__middle">
+          <div class="page4__box">
+            <div class="page4__content">
+              <img
+                src="page4__food5.png"
+                alt="page4__food5"
+                class="page4__img"
+              />
+              <div class="page4__tag">
+                <div class="tag__sale container">
+                  <img src="page4__tag.svg" alt="page4__tag" />
+                  <p class="page4__p">10% off</p>
+                </div>
+                <div class="tag__time container">
+                  <img src="page4__oclock.svg" alt="page4__oclock" />
+                  <p class="page4__p">Fast</p>
+                </div>
+              </div>
+              <div class="page4__text">
+                <div class="page4__brand">
+                  <img src="page4__brand5.svg" alt="page4__brand5" />
+                  <div>
+                    <h3 class="page4__h3">Ruby Tuesday</h3>
+                    <div class="page4__star">
+                      <img src="page4__star.svg" alt="page4__star" />
+                      <p class="page4__number">26</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page4__open container">
+              <p class="p__open">Opens now</p>
+            </div>
+          </div>
+
+          <div class="page4__box">
+            <div class="page4__content">
+              <img
+                src="page4__food6.png"
+                alt="page4__food6"
+                class="page4__img"
+              />
+              <div class="page4__tag">
+                <div class="tag__sale container">
+                  <img src="page4__tag.svg" alt="page4__tag" />
+                  <p class="page4__p">25% off</p>
+                </div>
+                <div class="tag__time container">
+                  <img src="page4__oclock.svg" alt="page4__oclock" />
+                  <p class="page4__p">Fast</p>
+                </div>
+              </div>
+              <div class="page4__text">
+                <div class="page4__brand">
+                  <img src="page4__brand6.svg" alt="page4__brand6" />
+                  <div>
+                    <h3 class="page4__h3">Kuakata Fried Chicken</h3>
+                    <div class="page4__star">
+                      <img src="page4__star.svg" alt="page4__star" />
+                      <p class="page4__number">53</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page4__open container">
+              <p class="p__open">Opens now</p>
+            </div>
+          </div>
+
+          <div class="page4__box">
+            <div class="page4__content">
+              <img
+                src="page4__food7.png"
+                alt="page4__food7"
+                class="page4__img"
+              />
+              <div class="page4__tag">
+                <div class="tag__sale container">
+                  <img src="page4__tag.svg" alt="page4__tag" />
+                  <p class="page4__p">10% off</p>
+                </div>
+                <div class="tag__time container">
+                  <img src="page4__oclock.svg" alt="page4__oclock" />
+                  <p class="page4__p">Fast</p>
+                </div>
+              </div>
+              <div class="page4__text">
+                <div class="page4__brand">
+                  <img src="page4__brand7.svg" alt="page4__brand7" />
+                  <div>
+                    <h3 class="page4__h3">Red Square</h3>
+                    <div class="page4__star">
+                      <img src="page4__star.svg" alt="page4__star" />
+                      <p class="page4__number">45</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page4__open container">
+              <p class="p__open">Opens now</p>
+            </div>
+          </div>
+
+          <div class="page4__box">
+            <div class="page4__content">
+              <img
+                src="page4__food8.png"
+                alt="page4__food8"
+                class="page4__img"
+              />
+              <div class="page4__tag">
+                <div class="tag__sale container">
+                  <img src="page4__tag.svg" alt="page4__tag" />
+                  <p class="page4__p">10% off</p>
+                </div>
+                <div class="tag__time container">
+                  <img src="page4__oclock.svg" alt="page4__oclock" />
+                  <p class="page4__p">Fast</p>
+                </div>
+              </div>
+              <div class="page4__text">
+                <div class="page4__brand">
+                  <img src="page4__brand8.svg" alt="page4__brand8" />
+                  <div>
+                    <h3 class="page4__h3">Taco Bell</h3>
+                    <div class="page4__star">
+                      <img src="page4__star.svg" alt="page4__star" />
+                      <p class="page4__number">35</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page4__open container">
+              <p class="p__open">Opens now</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="page4__button">
+          <p class="page4__view">View All</p>
+          <img src="page4__arrow.svg" alt="page4__arrow" />
+        </div>
+      </div>
+    </section>
+
+    <section class="page5 container">
+      <div class="page5__content">
+        <div class="page5__nav">
+          <h2 class="page5__h2">Search by Food</h2>
+          <div class="page5__right">
+            <div class="page5__view">
+              <p class="p__view">View All</p>
+              <img
+                src="page5__arrow.svg"
+                width="10"
+                height="16"
+                alt="page5__arrow"
+              />
+            </div>
+            <div class="page5__two">
+              <div class="page5__img container">
+                <img src="page5__arrow-left.svg" alt="page5__arrow-left" />
+              </div>
+              <div class="page5__img container">
+                <img src="page5__arrow-right.svg" alt="page5__arrow-right" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="page5__block">
+          <div class="page5__box">
+            <img
+              src="page5__food1.png"
+              style="border-radius: 50%"
+              alt="page5__food1"
+            />
+            <p class="page5__p">Pizza</p>
+          </div>
+
+          <div class="page5__box">
+            <img
+              src="page5__food2.png"
+              style="border-radius: 50%"
+              alt="page5__food2"
+            />
+            <p class="page5__p">Burger</p>
+          </div>
+
+          <div class="page5__box">
+            <img
+              src="page5__food3.png"
+              style="border-radius: 50%"
+              alt="page5__food3"
+            />
+            <p class="page5__p">Noodles</p>
+          </div>
+
+          <div class="page5__box">
+            <img
+              src="page5__food4.png"
+              style="border-radius: 50%"
+              alt="page5__food4"
+            />
+            <p class="page5__p">Sub-sandiwch</p>
+          </div>
+
+          <div class="page5__box">
+            <img
+              src="page5__food5.png"
+              style="border-radius: 50%"
+              alt="page5__food5"
+            />
+            <p class="page5__p">Chowmein</p>
+          </div>
+
+          <div class="page5__box">
+            <img
+              src="page5__food6.png"
+              style="border-radius: 50%"
+              alt="page5__food6"
+            />
+            <p class="page5__p">Steak</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page6 container">
+      <div class="page6__content container">
+        <div class="page6__box container">
+          <img src="page6__sale.svg" alt="page5__food6" />
+          <p class="page6__p">Daily Discounts</p>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="page6__box container">
+          <img src="page6__live.svg" alt="page6__live" />
+          <p class="page6__p">Live Tracing</p>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="page6__box container">
+          <img src="page6__time.svg" alt="page6__time" />
+          <p class="page6__p">Quick Delivery</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page7 container">
+      <div class="page7__container container">
+        <div class="page7__box">
+          <div class="page7__block container">
+            <div class="page7__text">
+              <h2 class="page7__h2">
+                Best deals <span style="color: #ffb30e">Crispy Sandwiches</span>
+              </h2>
+              <p class="page7__p">
+                Enjoy the large size of sandwiches. Complete perfect slice of
+                sandwiches.
+              </p>
+            </div>
+            <div class="page7__button container">
+              <p class="page7__proceed">Proceed to order</p>
+              <img src="page7__arrow.svg" alt="page7__arrow" />
+            </div>
+          </div>
+          <div class="page7__right">
+            <img src="page7__food1.png" alt="page7__food1" />
+          </div>
+        </div>
+
+        <div class="page7__box">
+          <img src="page7__food2.png" alt="page7__food2" />
+          <div class="page7__block container">
+            <div class="page7__text">
+              <h2 class="page7__h2">
+                Celebrate parties with
+                <span style="color: #ffb30e">Fried Chicken</span>
+              </h2>
+              <p class="page7__p">
+                Get the best fried chicken smeared with a lip smacking lemon
+                chili flavor. Check out best deals for fried chicken.
+              </p>
+            </div>
+            <div class="page7__button container">
+              <p class="page7__proceed">Proceed to order</p>
+              <img src="page7__arrow.svg" alt="page7__arrow" />
+            </div>
+          </div>
+        </div>
+
+        <div class="page7__box">
+          <div class="page7__block container">
+            <div class="page7__text">
+              <h2 class="page7__h2">
+                Wanna eat hot <br />
+                & spicy <span style="color: #ffb30e">Pizza?</span>
+              </h2>
+              <p class="page7__p">
+                Pair up with a friend and enjoy the <br />
+                hot and crispy pizza pops. Try it <br />
+                with the best deals.
+              </p>
+            </div>
+            <div class="page7__button container">
+              <p class="page7__proceed">Proceed to order</p>
+              <img src="page7__arrow.svg" alt="page7__arrow" />
+            </div>
+          </div>
+          <div class="page7__right">
+            <img src="page7__food3.png" alt="page7__food3" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page8 container">
+      <div>
+        <p class="p__are">Are you ready to order with the best deals?</p>
+      </div>
+      <div class="page8__button container">
+        <p class="p__proceed">Proceed to order</p>
+        <img src="page8__arrow.svg" width="10" height="16" alt="page8__arrow" />
+      </div>
+    </section>
+
+    <footer class="container">
+      <div class="footer__top">
+        <div class="footer__col1">
+          <h3 class="footer__title">Our top cities</h3>
+          <div class="footer__box">
+            <ul class="footer__list">
+              <li><a>San Francisco</a></li>
+              <li><a>Miami</a></li>
+              <li><a>San Diego</a></li>
+              <li><a>East Bay</a></li>
+              <li><a>Long Beach</a></li>
+            </ul>
+
+            <ul class="footer__list">
+              <li><a>Los Angeles</a></li>
+              <li><a>Washington DC</a></li>
+              <li><a>Seattle</a></li>
+              <li><a>Portland</a></li>
+              <li><a>Nashville</a></li>
+            </ul>
+
+            <ul class="footer__list">
+              <li><a>New York City</a></li>
+              <li><a>Orange County</a></li>
+              <li><a>Atlanta</a></li>
+              <li><a>Charlotte</a></li>
+              <li><a>Denver</a></li>
+            </ul>
+
+            <ul class="footer__list">
+              <li><a>Chicago</a></li>
+              <li><a>Phoenix</a></li>
+              <li><a>Las Vegas</a></li>
+              <li><a>Sacramento</a></li>
+              <li><a>Oklahoma City</a></li>
+            </ul>
+
+            <ul class="footer__list">
+              <li><a>Columbus</a></li>
+              <li><a>New Mexico</a></li>
+              <li><a>Albuquerque</a></li>
+              <li><a>Sacramento</a></li>
+              <li><a>New Orleans</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__line"></div>
+
+      <div class="footer__middle">
+        <div class="footer__mid">
+          <div class="footer__box2">
+            <div class="footer__col2">
+              <h3 class="footer__title">Company</h3>
+              <ul class="footer__list">
+                <li><a>About us</a></li>
+                <li><a>Team</a></li>
+                <li><a>Careers</a></li>
+                <li><a>Blog</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__col2">
+              <h3 class="footer__title">Contact</h3>
+              <ul class="footer__list">
+                <li><a>Help & Support</a></li>
+                <li><a>Partner with us</a></li>
+                <li><a>Ride with us</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__col2">
+              <h3 class="footer__title">Legal</h3>
+              <ul class="footer__list">
+                <li><a>Terms & Conditions</a></li>
+                <li><a>Refund & Cancellation</a></li>
+                <li><a>Privacy Policy</a></li>
+                <li><a>Cookie Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__link">
+          <div class="footer__up">
+            <div class="footer__pr">
+              <p class="p__fl">Follow Us</p>
+              <div class="footer__img">
+                <img src="ins.svg" alt="ins" />
+                <img src="fb.svg" alt="fb" />
+                <img src="twitter.svg" alt="twitter" />
+              </div>
+            </div>
+            <p class="p__receive">Receive exclusive offers in your mailbox</p>
+          </div>
+          <div class="footer__form">
+            <div class="footer__input">
+              <img src="envelope.svg" alt="envelope" />
+              <p class="p__email">Enter Your email</p>
+            </div>
+            <div class="footer__button container">Subscribe</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__line"></div>
+
+      <div class="footer__bottom">
+        <div class="footer__left">
+          <p class="p__all">All rights Reserved</p>
+          <div class="footer__copy">
+            <span class="p__copy">&copy;</span>
+            <p class="p__your">Your Company, 2021</p>
+          </div>
+        </div>
+        <div class="footer__right">
+          <div>
+            <p class="p__made">
+              Made with <span class="heart">&hearts;</span> by
+            </p>
+          </div>
+          <p class="p__theme">Themewagon</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
