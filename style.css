@@ -234,17 +234,17 @@ header {
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
-    padding-bottom: 13px;
+    padding-bottom: 10px;
 }
 .p__percent {
     font-weight: 700;
     font-size: 35px;
-    line-height: 110%;
+    line-height: 140%;
 }
 .p__off {
     font-weight: 400;
     font-size: 22px;
-    line-height: 45%;
+    line-height: 0%;
 }
 .page1__text {
     display: flex;
