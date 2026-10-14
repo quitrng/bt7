@@ -413,11 +413,11 @@ header {
     width: 357px;
     height: 301px;
     border-radius: 16px;
-    top: -24px;
-    left: -24px;
 }
 .page4__tag {
     position: absolute;
+    top: 24px;
+    left: 24px;
     display: flex;
     gap: 8px;
 }
